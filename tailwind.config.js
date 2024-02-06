@@ -10,6 +10,13 @@ export default {
       letterSpacing: {
         "wedding-spacing": "0.3em",
       },
+      fontFamily: {
+        alex: ["Alex Brush"],
+        dancing: ["Dancing Script"],
+        oswald: ["Oswald"],
+        gabarito: ["Gabarito"],
+        great: ["Great Vibes"],
+      },
     },
   },
   plugins: [],
