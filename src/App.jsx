@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
-import Hello from "./components/hello";
 import Welcome from "./components/welcome";
+import InvitationDetail from "./components/invitation-detail";
 
 function App() {
   const [showDetail, setShowDetail] = useState(false);
@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="container">
       <Welcome onClickDetail={handleClickDetail} />
-      {showDetail ? <Hello /> : null}
+      {showDetail ? <InvitationDetail /> : null}
     </div>
   );
 }

@@ -2,9 +2,9 @@ import girl from "../assets/girl.jpg";
 import man from "../assets/man.jpg";
 export default function Hello() {
   return (
-    <>
-      <h2 className="text-2xl mt-36">Assalamualaikum Wr. Wb</h2>
-      <h2 className="text-2xl"> Sabtu, 03 Oktober 2024</h2>
+    <div className="bg-orange-50 px-3 py-5">
+      <h2 className="text-2xl ">Assalamualaikum Wr. Wb</h2>
+      <h2 className="text-xl"> Sabtu, 03 Oktober 2024</h2>
       <p>
         Dengan memohon Rahmat dan Ridho Illahi, teririn niat menjalankan Sunnah
         Rasulullah untuk membentuk rumah tangga yang Sakinah, Mawaddah wa
@@ -31,6 +31,6 @@ export default function Hello() {
           <p className="text-base leading-3"> & Ibu Suratun</p>
         </div>
       </div>
-    </>
+    </div>
   );
 }
