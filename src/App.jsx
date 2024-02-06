@@ -9,7 +9,7 @@ function App() {
     setShowDetail(true);
   };
   return (
-    <div className="container">
+    <div>
       <Welcome onClickDetail={handleClickDetail} />
       {showDetail ? <InvitationDetail /> : null}
     </div>
