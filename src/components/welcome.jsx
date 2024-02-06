@@ -1,7 +1,7 @@
 // eslint-disable-next-line react/prop-types
 export default function Welcome({ onClickDetail }) {
   return (
-    <div className="bg-welcome-background h-[650px] flex items-center justify-center">
+    <div className="bg-welcome-background h-screen flex items-center justify-center">
       <div className="bg-orange-700 bg-opacity-30 h-full w-full text-center">
         <h3 className="text-3xl font-semibold mt-16 font-alex">
           The Wedding of
