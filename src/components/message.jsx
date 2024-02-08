@@ -7,7 +7,7 @@ export default function Message() {
 
     try {
       const response = await fetch(
-        "https://script.google.com/macros/s/AKfycbwHkBalFwNmaT0AIXA2CxO5XAvNGBRQfPhsvxyOP3BhNt4sf0u8TtlGt1m_AN__MAm5/exec",
+        "https://script.google.com/macros/s/AKfycbwOB1BpeuqHkmb5keWleXthadJA8YUT0O9NQHo6hwCBURfKIMYwjUYzL-n0FIuVTKV8/exec",
         {
           method: "POST",
           body: formData,
