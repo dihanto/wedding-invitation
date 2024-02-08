@@ -23,7 +23,7 @@ export default function Hello() {
             {" "}
             Putri Bapak Tatang{" "}
           </p>
-          <p className="text-sm leading-3 text-slate-500">
+          <p className="text-sm font-gabarito leading-3 text-slate-500">
             {" "}
             & Ibu Setyo Listiani
           </p>

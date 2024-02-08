@@ -16,12 +16,14 @@ export default function Welcome({ onClickDetail }) {
         </div>
         <h2 className="text-3xl  font-oswald">Sebastian</h2>
         <h4 className="text-lg  mb-16 font-gabarito">di Tempat</h4>
-        <button
-          className="p-4 text-lg border text-white rounded-xl hover:border-orange-600 font-semibold shadow-xl"
-          onClick={onClickDetail}
-        >
-          BUKA UNDANGAN
-        </button>
+        <a href="#detail">
+          <button
+            className="p-4 text-lg border text-white rounded-xl hover:border-orange-600 font-semibold shadow-xl"
+            onClick={onClickDetail}
+          >
+            BUKA UNDANGAN
+          </button>
+        </a>
       </div>
     </div>
   );
