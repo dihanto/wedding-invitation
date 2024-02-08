@@ -11,6 +11,7 @@ export default function Message() {
         {
           method: "POST",
           body: formData,
+          mode: "no-cors",
         }
       );
       if (response.ok) {
