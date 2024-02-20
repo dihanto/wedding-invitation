@@ -4,7 +4,7 @@ export default function Message() {
 
     const formElement = document.querySelector("form");
     const formData = new FormData(formElement);
-
+    console.log(formData);
     try {
       const response = await fetch(
         "https://script.google.com/macros/s/AKfycbwOB1BpeuqHkmb5keWleXthadJA8YUT0O9NQHo6hwCBURfKIMYwjUYzL-n0FIuVTKV8/exec",
