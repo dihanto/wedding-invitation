@@ -2,7 +2,7 @@
 
 import Countdown from "react-countdown";
 
-export default function Welcome({ onClickDetail }) {
+export default function Welcome({ onClickDetail, guestName }) {
   const renderer = ({ days, hours, minutes, seconds }) => {
     return (
       <div className="flex justify-center gap-2 mb-7 text-white font-gabarito">
@@ -31,15 +31,16 @@ export default function Welcome({ onClickDetail }) {
         <h2 className="text-xl  font-gabarito">
           You Are Invited to Our Wedding
         </h2>
-        <div className="my-6">
-          <h4 className="text-base  font-gabarito">Kepada Yth.</h4>
-          <h4 className="text-base  font-gabarito">Bpk/Ibu/Saudara/i</h4>
+        <div className={`mt-6 ${guestName ? "mb-7" : ""}`}>
+          <h4 className="text-base font-gabarito">Kepada Yth.</h4>
+          <h4 className="text-base font-gabarito">Bpk/Ibu/Saudara/i</h4>
         </div>
-        <h2 className="text-3xl  font-oswald">Sebastian</h2>
+
+        <h2 className="text-3xl  font-oswald">{guestName ? guestName : ""}</h2>
         <h4 className="text-lg  mb-16 font-gabarito">di Tempat</h4>
         <div>
           <Countdown
-            date={"2024-03-03T08:00:00"}
+            date={"2024-06-07T08:00:00"}
             intervalDelay={0}
             renderer={renderer}
           />
