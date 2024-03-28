@@ -1,33 +1,61 @@
 export default function Story() {
   return (
-    <div className="w-full bg-slate-50 pt-7">
+    <div className="w-full bg-slate-50 pt-7 pb-8">
       <h1 className="font-semibold text-3xl text-pink-400 pt-4 font-great tracking-wider">
         Jalan Berdua
       </h1>
       <h2 className="mt-2 text-lg text-slate-600 font-gabarito ">
         Kisah kasih sejak awal kami berjumpa
       </h2>
-      <p className="mt-5 font-gabarito text-slate-500">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptas
-        sint totam deserunt. Ipsum hic ex ad mollitia possimus dolorem repellat,
-        aperiam delectus voluptates labore minus, esse officiis tempore
-        sapiente.
-      </p>
-      <p className="mt-3 f font-gabarito text-slate-500">
-        {" "}
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem, soluta?
-        Culpa ex magnam, magni atque perspiciatis distinctio numquam, inventore
-        suscipit reprehenderit, ullam porro hic quo repellendus fugiat sunt
-        voluptatem. Aperiam sint minima sequi excepturi odit perspiciatis quo
-        eaque velit, dolorem repudiandae fugiat reprehenderit voluptatem, at non
-        consequatur, beatae distinctio incidunt! Cupiditate quia, architecto et
-        facere magni eveniet iste praesentium deserunt!
-      </p>
-      <p className="mt-3 font-gabarito text-slate-500">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sint itaque,
-        tempora, non, inventore soluta consectetur ad natus quo esse dolorem
-        laudantium! Quia, itaque nihil culpa placeat omnis deserunt amet?
-      </p>
+      <div className="flex text-left font-gabarito ">
+        <div className="border-r-2 border-gray-500 px-4 py-2"></div>
+        <div>
+          <div className="border-gray-300 border rounded-br-lg rounded-tl-lg p-4 ml-6 mt-5 mr-6 shadow-md relative">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+            veniam dolorem id quia facere quo expedita similique consequatur ea
+            quod itaque deserunt modi voluptates voluptate aut, ullam harum iste
+            doloribus fugiat odio debitis voluptatum tenetur accusamus. Dicta
+            similique cupiditate laborum sed magnam sapiente. Porro.
+            <div className="absolute top-1/2 -left-6 transform -translate-y-1/2 border-t w-6 border-black h-0"></div>
+          </div>
+
+          <div className="border-gray-300 border rounded-br-lg rounded-tl-lg p-4 ml-6 mt-5 mr-6 shadow-md relative">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex
+            quibusdam reprehenderit laboriosam nesciunt. Non quod et quisquam
+            neque deleniti excepturi nemo nam, totam libero reiciendis nihil
+            dolorem eveniet, qui aliquam veniam dolor doloribus voluptas sed.
+            Accusantium hic impedit tempora eius architecto eligendi iure
+            reiciendis sunt, mollitia aperiam ab? Doloribus, eius. Deleniti
+            saepe quam rem at facilis dolorum reiciendis quos ad, modi esse
+            voluptatem maiores obcaecati nulla velit repudiandae doloremque
+            assumenda delectus magni aut commodi vero! Tempore commodi officiis
+            quia debitis?
+            <div className="absolute top-1/2 -left-6 transform -translate-y-1/2 border-t w-6 border-black h-0"></div>
+          </div>
+          <div className="border-gray-300 border rounded-br-lg rounded-tl-lg p-4 ml-6 mt-5 mr-6 shadow-md relative">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta
+            repudiandae et tempora obcaecati cupiditate eum sed, excepturi ipsa.
+            Porro pariatur quo et quisquam numquam possimus unde eaque magnam
+            nisi iusto, officia delectus aut obcaecati non dicta animi assumenda
+            recusandae nobis ea facilis cupiditate ratione cumque deleniti
+            necessitatibus. Voluptates, nulla rem. Porro numquam vitae earum
+            corporis! Vel, voluptates fugiat.
+            <div className="absolute top-1/2 -left-6 transform -translate-y-1/2 border-t w-6 border-black h-0"></div>
+          </div>
+          <div className="border-gray-300 border rounded-br-lg rounded-tl-lg p-4 ml-6 mt-5 mr-6 shadow-md relative mb-16">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+            consequuntur nesciunt nihil facere quod. Sed architecto unde sit
+            corporis optio incidunt adipisci animi tenetur placeat minima
+            commodi odio, impedit, reiciendis perspiciatis quasi dolores
+            mollitia voluptas voluptatum quam earum! Corrupti cupiditate
+            doloribus maxime dolorum dignissimos deleniti asperiores iste dicta.
+            Nulla quibusdam aperiam consequatur, repudiandae modi impedit ipsum
+            beatae tenetur aliquid repellat praesentium, esse debitis error quis
+            exercitationem!
+            <div className="absolute top-1/2 -left-6 transform -translate-y-1/2 border-t w-6 border-black h-0"></div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
