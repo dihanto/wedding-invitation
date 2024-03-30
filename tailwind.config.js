@@ -6,6 +6,7 @@ export default {
       backgroundImage: {
         "welcome-background": "url('/src/assets/foto.jpg')",
         "schedule-background": "url('src/assets/bg02.jpg')",
+        "bubble-image-1": "url('https://source.unsplash.com/400x400?couple')",
       },
       letterSpacing: {
         "wedding-spacing": "0.3em",
