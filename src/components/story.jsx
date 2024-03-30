@@ -9,9 +9,9 @@ export default function Story() {
       </h2>
       <div className="flex text-left font-gabarito ">
         <div className="border-r-2 border-gray-200 px-4 py-2 shadow-sm ml-5"></div>
-        <div>
+        <div className="text-slate-500 text-sm">
           <div className="relative ml-7">
-            <div className="bg-bubble-image-1 w-16 h-16 absolute -left-[60px] rounded-full bg-cover top-7"></div>
+            <div className="bg-bubble-image-1 w-12 h-12 absolute -left-[52px] rounded-full bg-cover top-9"></div>
             <div className="w-5 h-5  border-b border-l border-gray-200 shadow-md absolute rotate-45 left-[14px] top-12"></div>
             <div className="w-5 h-5  border-b border-l border-gray-50 bg-gray-50 absolute rotate-45 left-[16px] top-12 z-10"></div>
             <div className="border-gray-300 border rounded-br-lg rounded-tl-lg p-4 ml-6 mt-5 mr-6 shadow-md -z-10">
@@ -23,7 +23,7 @@ export default function Story() {
             </div>
           </div>
           <div className="relative ml-7">
-            <div className="bg-bubble-image-1 w-16 h-16 absolute -left-[60px] rounded-full bg-cover top-7"></div>
+            <div className="bg-bubble-image-1 w-12 h-12 absolute -left-[52px] rounded-full bg-cover top-9"></div>
             <div className="w-5 h-5  border-b border-l border-gray-200 shadow-md absolute rotate-45 left-[14px] top-12"></div>
             <div className="w-5 h-5  border-b border-l border-gray-50 bg-gray-50 absolute rotate-45 left-[16px] top-12 z-10"></div>
             <div className="border-gray-300 border rounded-br-lg rounded-tl-lg p-4 ml-6 mt-5 mr-6 shadow-md">
@@ -40,7 +40,7 @@ export default function Story() {
             </div>
           </div>
           <div className="relative ml-7">
-            <div className="bg-bubble-image-1 w-16 h-16 absolute -left-[60px] rounded-full bg-cover top-7"></div>
+            <div className="bg-bubble-image-1 w-12 h-12 absolute -left-[52px] rounded-full bg-cover top-9"></div>
             <div className="w-5 h-5  border-b border-l border-gray-200 shadow-md absolute rotate-45 left-[14px] top-12"></div>
             <div className="w-5 h-5  border-b border-l border-gray-50 bg-gray-50 absolute rotate-45 left-[16px] top-12 z-10"></div>
             <div className="border-gray-300 border rounded-br-lg rounded-tl-lg p-4 ml-6 mt-5 mr-6 shadow-md">
@@ -54,7 +54,7 @@ export default function Story() {
             </div>
           </div>
           <div className="relative ml-7">
-            <div className="bg-bubble-image-1 w-16 h-16 absolute -left-[60px] rounded-full bg-cover top-7"></div>
+            <div className="bg-bubble-image-1 w-12 h-12 absolute -left-[52px] rounded-full bg-cover top-9"></div>
             <div className="w-5 h-5  border-b border-l border-gray-200 shadow-md absolute rotate-45 left-[14px] top-12"></div>
             <div className="w-5 h-5  border-b border-l border-gray-50 bg-gray-50 absolute rotate-45 left-[16px] top-12 z-10"></div>
             <div className="border-gray-300 border rounded-br-lg rounded-tl-lg p-4 ml-6 mt-5 mr-6 shadow-md relative mb-16">
