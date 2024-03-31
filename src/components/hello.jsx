@@ -2,7 +2,7 @@ import girl from "../assets/girl.jpg";
 import man from "../assets/man.jpg";
 export default function Hello() {
   return (
-    <div className="bg-orange-50 px-3 py-8">
+    <div className="bg-slate-50 px-3 py-8">
       <h2 className="text-3xl font-great text-pink-400 pb-4">
         Assalamualaikum Wr. Wb
       </h2>
@@ -16,37 +16,34 @@ export default function Hello() {
         Rahmah, kami mohon do`a agar senantiasa diberikan kelancaran dan
         keberkahan.
       </p>
-      <div className="flex justify-end mt-3">
-        <div className="text-right mr-6">
-          <h2 className="text-2xl font-dancing text-pink-400">Juliet</h2>
-          <p className="text-sm font-gabarito text-slate-500">
+      <div className="mt-5">
+        <div className="text-right mr-6 w-full">
+          <img src={girl} className="rounded-full w-32 h-32 mx-auto" />
+          <h2 className="text-2xl font-dancing text-pink-400 text-center mt-4">
+            Juliet
+          </h2>
+          <p className="text-sm font-gabarito text-slate-500 text-center mt-1">
             {" "}
             Putri Bapak Tatang{" "}
           </p>
-          <p className="text-sm font-gabarito leading-3 text-slate-500">
+          <p className="text-sm text-center font-gabarito leading-3 text-slate-500 mt-1">
             {" "}
             & Ibu Setyo Listiani
           </p>
         </div>
-        <div>
-          <img src={girl} className="rounded-full w-24 h-24" />
-        </div>
       </div>
-      <div className="flex justify-start mt-4">
-        <div>
-          <img src={man} className="rounded-full w-24 h-24" />
-        </div>
-        <div className="text-left ml-3">
-          <h2 className="text-2xl font-dancing text-pink-400">Romeo</h2>
-          <p className="text-sm font-gabarito text-slate-500">
-            {" "}
-            Putra Bapak Bunari
-          </p>
-          <p className="text-sm font-gabarito text-slate-500 leading-3">
-            {" "}
-            & Ibu Suratun
-          </p>
-        </div>
+      <div className="text-5xl font-bold text-center my-5 text-pink-400">&</div>
+      <img src={man} className="rounded-full mt-4 w-32 h-32 mx-auto" />
+      <div className="text-center">
+        <h2 className="text-2xl font-dancing text-pink-400 mt-4">Romeo</h2>
+        <p className="text-sm font-gabarito text-slate-500 mt-1">
+          {" "}
+          Putra Bapak Bunari
+        </p>
+        <p className="text-sm font-gabarito text-slate-500 leading-3 mt-1">
+          {" "}
+          & Ibu Suratun
+        </p>
       </div>
     </div>
   );
