@@ -1,6 +1,6 @@
 export default function Thanks() {
   return (
-    <div className="w-full pt-5 bg-lime-50">
+    <div className="w-full pt-5 bg-lime-50 p-3">
       <h1 className="font-bold text-2xl">Terima Kasih</h1>
       <p>
         Berdasarkan kondisi saat ini, tanpa mengurangi rasa hormat, diharapkan

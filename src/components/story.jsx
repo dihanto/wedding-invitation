@@ -1,6 +1,6 @@
 export default function Story() {
   return (
-    <div className="w-full bg-slate-50 pt-7 pb-8">
+    <div className="w-full bg-slate-50 pt-7 pb-8" id="story">
       <h1 className="font-semibold text-3xl text-pink-400 pt-4 font-great tracking-wider">
         Jalan Berdua
       </h1>

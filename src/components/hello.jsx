@@ -2,7 +2,7 @@ import girl from "../assets/girl.jpg";
 import man from "../assets/man.jpg";
 export default function Hello() {
   return (
-    <div className="bg-slate-50 px-3 py-8">
+    <div className="bg-slate-50 px-3 py-8" id="home">
       <h2 className="text-3xl font-great text-pink-400 pb-4">
         Assalamualaikum Wr. Wb
       </h2>

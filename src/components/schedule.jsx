@@ -1,6 +1,6 @@
 export default function Schedule() {
   return (
-    <div className="bg-schedule-background ">
+    <div className="bg-schedule-background " id="info">
       <div className="bg-black px-2 py-6 bg-opacity-50 text-white">
         <h1 className="text-3xl mb-6 font-semibold font-great tracking-wider">
           Akad Nikah dan Syukuran Pernikahan
